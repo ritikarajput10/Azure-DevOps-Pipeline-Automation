@@ -1,0 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace AzureDevOpsPipelineAutomation.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class HomeController : ControllerBase
+    {
+        [HttpGet]
+        public IActionResult Get() => Ok(new { message = "Welcome to Azure DevOps Pipeline Automation App" });
+    }
+}
