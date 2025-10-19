@@ -1,5 +1,0 @@
-Write-Host "Starting PowerShell Build Script..."
-dotnet restore
-dotnet build --configuration Release
-dotnet test --configuration Release
-Write-Host "✅ Build and Tests completed successfully!"
